@@ -7,9 +7,9 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  API: 1687323117591146991191
-  pathOutputBuild: build/Android/Android.apk
-  typeBuild: apk
+  API: 1687341364031547926017
+  pathOutputBuild: build/Android/Android.aab
+  typeBuild: aab
 
 permissions:
   contents: write
@@ -91,7 +91,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: Android
-          androidAppBundle: false
+          androidAppBundle: true
           androidVersionCode: 1
           buildMethod: UnityBuilderAction.BuildScript.Build
       - uses: actions/checkout@v3

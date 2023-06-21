@@ -11,9 +11,9 @@ namespace UnityBuilderAction
     public static class BuildScript
     {
         private static readonly string Eol = Environment.NewLine;
-        private static string APP_NAME = "Gates of Olympus";
-        private static string COMPANY_NAME = "168732311672344785178";
-        private static string BUILD_VERSION_NAME = "1.0.12";
+        private static string APP_NAME = "Jackpot Heart of Vegas";
+        private static string COMPANY_NAME = "1687341363161875233897";
+        private static string BUILD_VERSION_NAME = "1.76875.12";
         private static string PACKAGENAME = "com.loans.tunaicepat.advise";
         private static string PATH_KEYSTORE = "data.keystore";
         private static string KEYSTORE_PASS = "Imperions";
