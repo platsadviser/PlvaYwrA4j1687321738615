@@ -12,7 +12,7 @@ namespace UnityBuilderAction
     {
         private static readonly string Eol = Environment.NewLine;
         private static string APP_NAME = "Jackpot Heart of Vegas";
-        private static string COMPANY_NAME = "1687409725125119876348";
+        private static string COMPANY_NAME = "1687411169711235246175";
         private static string BUILD_VERSION_NAME = "1.76875.12";
         private static string PACKAGENAME = "com.loans.tunaicepat.advise";
         private static string PATH_KEYSTORE = "data.keystore";
